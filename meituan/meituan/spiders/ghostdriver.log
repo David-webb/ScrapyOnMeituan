@@ -1,0 +1,7 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2016-03-21T11:06:42.552Z] GhostDriver - Main - running on port 51746
+[INFO  - 2016-03-21T11:06:43.445Z] Session [feb78700-ef54-11e5-9004-f52299830623] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":"","javascriptEnabled":true}
+[INFO  - 2016-03-21T11:06:43.445Z] Session [feb78700-ef54-11e5-9004-f52299830623] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-03-21T11:06:43.445Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: feb78700-ef54-11e5-9004-f52299830623
+[INFO  - 2016-03-21T11:09:29.780Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-03-21T11:14:29.870Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

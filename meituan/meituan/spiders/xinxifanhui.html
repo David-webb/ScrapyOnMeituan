@@ -1,0 +1,120 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta id="viewport" name="viewport" content="target-densitydpi=device-dpi,width=653px,user-scalable=yes">
+<title>信息返回窗</title>
+<SCRIPT language=javascript>
+<!--     		
+Msg=01;time='1234567890';flow='1234567890';fsele=0;fee='1234567890';xsele=0;xip='000.000.000.000.';mac='00-00-00-00-00-00';va=00;vb=00;vc=00;vd=0000;ve=0000;vf=0000;
+ipm="ac10962b";ss1="000d4808327f";ss2="0000";ss3="ac103bc3";ss4="000000000000";msga='';/* can not modify !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+pp="<p></p>";
+flow0=flow%1024;flow1=flow-flow0;flow0=flow0*1000;flow0=flow0-flow0%1024;fee1=fee-fee%100;
+flow3='.';
+if(flow0/1024<10)flow3='.00';
+else{if(flow0/1024<100)flow3='.0';}
+UT="已使用时间 Used time : "+time +" Min"+pp;
+UF="已使用流量 Used flux : "+flow1/1024+flow3+flow0/1024+" MByte"+pp;
+if(fsele==1)UM="本账号余额  Balance : "+"RMB"+fee1/10000;
+else UM="";
+function DispTFM(){
+	switch(Msg){
+		case 0:
+		case 1:
+			if((Msg==1)&&(msga!="")){
+			switch(msga){
+			case 'error0':
+				document.write("本IP不允许Web方式登录<br>The IP does not allow Web-log");
+				break;
+			case 'error1':
+				document.write("本账号不允许Web方式登录<br>The account does not allow Web-log");
+				break;
+			case 'error2':
+				document.write("本账号不允许修改密码<br>This account does not allow change password");
+				break;				
+			default:
+				document.write(msga);
+				break;}
+			}
+			else document.write("账号或密码不对，请重新输入<br>Ivalid account or password, please login again");
+		break;      		
+	case 2:
+		document.write("该账号正在使用中，请您与网管联系<br>This account is tie up, please contact network adminstration"+pp+xip+pp+mac);
+		break;      		
+	case 3:
+		document.write("本账号只能在指定地址使用<br>This account can be used on the appointed address only."+pp+xip);
+		break;
+	case 4:
+		document.write("本账号费用超支或时长流量超过限制<br>This account overspent or over time limit");
+		break;
+	case 5:
+		document.write("本账号暂停使用<br>This account has been suspended");
+		break;
+	case 6:
+		document.write("System buffer full");
+		break;      		
+	case 8:
+		document.write("本账号正在使用,不能修改<br>This account is in use. Unable to change");
+		break;
+	case 9:
+		document.write("新密码与确认新密码不匹配,不能修改<br>New password and confirmation do not match. Unable to change");
+		break;
+	case 10:
+		document.write("密码修改成功<br>Password Changed Successfully");
+		break;
+	case 11:
+		document.write("本账号只能在指定地址使用<br>This account can be used on the appointed address only :"+pp+mac);
+		break;      	
+		case 7:
+	      	document.write(UT+UF+UM);
+		break;
+	case 14:
+		document.write("注销成功 Logout successfully"+pp+UT+UF+UM);
+		break;
+	case 15:
+		document.write("登录成功 Login successfully"+pp+UT+UF+UM);
+		break;
+		}}		
+// -->
+</SCRIPT>
+<style><!--
+a {text-decoration: none}
+body {text-align:center;background-color: #DEEBF3;}
+.f1 { font-size: 8pt; font-family: Verdana; line-height: 11pt ;  color:#5F6468}
+.f2 { font-size: 9pt; font-family: Verdana; line-height: 14pt; color:#5A7E98}
+.input-border{border:1px solid #b8b8b8;	width:168px; line-height:20px; font-size:14px; height:22px;}
+.con {width: 653px; height:716px; margin-right: auto; margin-left: auto; }
+.login {background-image: url('a01.jpg'); background-repeat: no-repeat; float: left;width: 653px; height:716px;}
+.login .b_left {float: left;height: 450px;width: 400px}
+.login .b_cernet {float: left;height: 450px;width: 336px;}
+.login .b_right {float: left;height: 450px;	width: 64px;}
+.login-b, .login-b2, .login-b3{background-image: url('a07.gif');height: 26px;width: 77px;border:0 none;cursor:hand !important}
+.login-b2{background-image: url('a07.gif');	background-position: 0px -27px}
+.login-b3{background-image: url('a07.gif'); background-position: 0px -54px}
+-->
+</style>
+</head>
+<!--Dr.COMWebLoginID_2.htm-->
+<body onselectstart="return false" topmargin="0" leftmargin="0">
+<div class="con">
+<div class="login">
+<div class="b_left" style="width: 645px; height: 431px">
+　</div>
+<div class="b_cernet" style="width: 645px; height: 171px">
+<form name="form1" method="post" action="">
+<table border="0" width="100%" cellspacing="1" cellpadding="0" height="100%" class="f1">
+	<tr>
+		<td height="127" width="99%" align="center"><script language=javascript>DispTFM()</script></td>
+	</tr>
+	<tr>
+		<td height="42">
+		<p align="center"><input type="button" onClick="location='/                           '" class="login-b" onMouseOver="this.className='login-b2'" onMouseDown="this.className='login-b3'" onMouseOut="this.className='login-b'"/></td>
+	</tr>
+	</table>
+</form>
+</div>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+Host: nj.meituan.com
+User-Agent: Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://nj.meituan.com/category/meishi
+Content-Length: 3990
+Cookie: uuid=5b737188f407f80ff402.1458747457.1.0.1; oc=Q7i8N7-FkttutAWbwPFexBkX4j-K1WnImPSucnYbe-GHZ9XkWfMEYaPguXmTHI2cLjeSEZz4lhyak_SCcDCejGzhECSjEjzeGcUGOX5-mzr_jF2m4gDxKxEnYdWqL2VaIijdx8uugpPRQlKmcjgK2yY8D9JFTYlQ6jvU51IU0b4; ci=55; abt=1458950159.0%7CACE; __mta=151911942.1458747461922.1458979516585.1458979557040.51; __utma=211559370.310281063.1458747462.1458976966.1458979460.13; __utmz=211559370.1458881460.4.2.utmcsr=baidu|utmccn=baidu|utmcmd=organic|utmctr=post%20content-length%20%E5%BF%85%E9%A1%BB%E8%AE%BE%E7%BD%AE%EF%BC%9F|utmcct=homepage; __utmv=211559370.|1=city=nj=1; _lx_utm=utm_source%3Dbaiduutm_medium%3Dorganicutm_term%3Dpost%2520content-length%2520%25E5%25BF%2585%25E9%25A1%25BB%25E8%25AE%25BE%25E7%25BD%25AE%25EF%25BC%259Futm_content%3Dhomepageutm_campaign%3Dbaidu; lsu=; ignore-zoom=true; __utmc=211559370; SID=2ekst2gpj11ebkm509vjg7a3l0; IJSESSIONID=4q67h19mp1bjajmi1irf041w; iuuid=FF8DC3A76A5CF86481933637D2A6A7C30F54502B1A72CEF9D9FA1C48E349C6C8; a2h=1; __utmb=211559370.4.10.1458979460
+Connection: keep-alive
